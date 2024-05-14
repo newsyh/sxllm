@@ -38,7 +38,7 @@
                 <el-input
                   v-model="applicationForm.desc"
                   type="textarea"
-                  placeholder="描述该应用的应用场景及用途，如：MaxKB 小助手回答用户提出的 MaxKB 产品使用问题"
+                  placeholder="描述该应用的应用场景及用途，如：SXLLM 小助手回答用户提出的 SXLLM 产品使用问题"
                   :rows="3"
                   maxlength="256"
                   show-word-limit
@@ -314,10 +314,10 @@ const applicationForm = ref<ApplicationFormType>({
   desc: '',
   model_id: '',
   multiple_rounds_dialogue: false,
-  prologue: `您好，我是 MaxKB 小助手，您可以向我提出 MaxKB 使用问题。
-- MaxKB 主要功能有什么？
-- MaxKB 支持哪些大语言模型？
-- MaxKB 支持哪些文档类型？`,
+  prologue: `您好，我是 SXLLM 小助手，您可以向我提出 SXLLM 使用问题。
+-  主要功能有什么？
+-  支持哪些大语言模型？
+-  支持哪些文档类型？`,
   dataset_id_list: [],
   dataset_setting: {
     top_n: 3,
